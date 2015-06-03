@@ -1,0 +1,23 @@
+{
+    "name": "turanct/immutio-buzz",
+    "description": "Buzz adapter for the immutio library",
+    "type": "library",
+    "homepage": "http://github.com/turanct/immutio-buzz",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "spinnewebber_toon@hotmail.com",
+            "homepage": "http://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "kriswallsmith/buzz": "0.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Immutio\\": "src/"
+        }
+    }
+}
