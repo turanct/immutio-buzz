@@ -7,7 +7,7 @@ A Buzz adapter for the immutio library.
 Usage
 -----------------------------
 
-Installing it is easy, just require `turanct/immutio` as a dependency in your `composer.json` file.
+Installing it is easy, just require `turanct/immutio-buzz` as a dependency in your `composer.json` file. It will automatically require the base package for you.
 
 ```json
 {
